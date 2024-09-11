@@ -1,0 +1,22 @@
+import React from 'react'
+
+const TextAlign = () => {
+  return (
+    <div>
+        <h1 className='font-bold'>Text Align</h1>
+        <p className="text-left">text-left - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur reiciendis porro minima error in dicta eligendi at fugiat labore quaerat. Esse, tenetur, culpa similique sequi at earum perspiciatis consectetur dolores temporibus quam natus eos enim ratione? Iste, voluptate? Dicta ipsam ullam illum maxime officia incidunt repellat vero libero molestiae necessitatibus.</p>
+        <p className="text-right">text-right - Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quo perferendis molestiae. Quas dicta assumenda facere dolor quidem. Libero incidunt sit nemo quisquam fugit. Qui laborum, recusandae ab possimus deleniti eos enim dolorem impedit corrupti ducimus ea voluptas saepe repellendus pariatur earum consectetur facere sequi placeat dignissimos ut animi asperiores!</p>
+        <p className="text-center">text-center - Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia placeat iste deleniti illum maiores repudiandae minus quasi nesciunt natus sit, pariatur esse porro. At quod, minus doloremque officia necessitatibus similique, et vel earum suscipit, culpa deserunt dolor voluptates iure nam consequatur delectus debitis. Impedit a quos qui debitis, inventore blanditiis!</p>
+        <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quam enim quibusdam nostrum omnis nam laboriosam earum officiis quasi. Tenetur iste eligendi aut recusandae earum deserunt officiis aspernatur laudantium accusantium dolor, odit minus fugit impedit corrupti tempore vero quidem magnam quam? Nam nulla iusto numquam accusantium doloribus! Temporibus, ab fugit!</p>
+        <p className="text-start">text-start - Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus voluptates, animi cumque veniam, eos ducimus odit incidunt, modi ex quam debitis dolores pariatur necessitatibus sequi. Non velit temporibus suscipit ratione quibusdam facere cum natus, molestiae exercitationem et vitae fugiat obcaecati. Laborum nulla, sit error quas iusto quidem veritatis nam.</p>
+        <p className="text-end">text-end - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nesciunt iusto, neque quia a necessitatibus quae beatae praesentium nam! Architecto sapiente ipsam corrupti hic fugit! Repellendus odio temporibus quo quasi veniam nihil id aliquam commodi magnam, ipsa dignissimos mollitia, unde voluptatem nesciunt ad facere vitae delectus provident minima nisi quia?\</p>
+        <p className="text-wrap">text-wrap -Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nesciunt iusto, neque quia a necessitatibus quae beatae praesentium nam! Architecto sapiente ipsam corrupti hic fugit! Repellendus odio temporibus quo quasi veniam nihil id aliquam commodi magnam, ipsa dignissimos mollitia, unde voluptatem nesciunt ad facere vitae delectus provident minima nisi quia?\</p>
+        <p className="text-nowrap">text-nowrap - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nesciunt iusto, neque quia a necessitatibus quae beatae praesentium nam! Architecto sapiente ipsam corrupti hic fugit! Repellendus odio temporibus quo quasi veniam nihil id aliquam commodi magnam, ipsa dignissimos mollitia, unde voluptatem nesciunt ad facere vitae delectus provident minima nisi quia?\</p>
+        <p className="text-balance">text-balance - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nesciunt iusto, neque quia a necessitatibus quae beatae praesentium nam! Architecto sapiente ipsam corrupti hic fugit! Repellendus odio temporibus quo quasi veniam nihil id aliquam commodi magnam, ipsa dignissimos mollitia, unde voluptatem nesciunt ad facere vitae delectus provident minima nisi quia?\</p>
+        <p className="text-pretty">text-pretty - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nesciunt iusto, neque quia a necessitatibus quae beatae praesentium nam! Architecto sapiente ipsam corrupti hic fugit! Repellendus odio temporibus quo quasi veniam nihil id aliquam commodi magnam, ipsa dignissimos mollitia, unde voluptatem nesciunt ad facere vitae delectus provident minima nisi quia?\</p>
+      
+    </div>
+  )
+}
+
+export default TextAlign
