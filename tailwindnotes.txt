@@ -41,28 +41,31 @@ App.js
 
 
 
-Updated tailwind installation:
+Updated tailwind version 4 installation:
 npm create vite@latest my-project -- --template react
 cd my-project
 npm install
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+npm install tailwindcss @tailwindcss/vite
+
 
 vite.config
 --------------
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+// https://vite.dev/config/
 export default defineConfig({
   plugins: [
     tailwindcss(),
-  ],
+    react()],
 })
+
 
 any css file - index.css or app.css
 -----------------------------------
 @import "tailwindcss";
 
-write a code inside the bode tag app.jsx
+write a code inside the body tag app.jsx
 ---------------------------
  <h1 class="text-3xl font-bold underline">
     Hello world!
@@ -72,6 +75,16 @@ write a code inside the bode tag app.jsx
 finally
 --------
 npm run dev
+
+ensure:
+-------
+
+"dependencies": {
+    "@tailwindcss/vite": "^4.0.17",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.17"
+  },
 
 
 
